@@ -55,8 +55,29 @@ button{
     font-size: 20px;
 }
 
-.submit {
+#submit {
     color: white;
     background-color: red;
+}
+
+.historyContainer {
+    
+}
+
+.clueContainer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.reveal {
+    display: block;
+}
+
+#high{
+    font-size: 18px;
+}
+
+#low{
+    font-size: 10px;
 }
 

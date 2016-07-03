@@ -8,8 +8,12 @@
     <title>Fullstack Guessing Game</title>
 
     <!-- CSS -->
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <link rel="stylesheet" href="./fullstack-guessing-game/style.css">
+    <link rel="stylesheet" href="style.css">
+    <!--<link rel="stylesheet" href="./fullstack-guessing-game/style.css">-->
+    
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="guessingGame.js"></script>
     
 </head>
 
@@ -24,9 +28,9 @@
             <form action="" class="guessingGameForm">
                 <input class="guessInput" type="text">
                 <br>
-                <button>Guess History</button>
-                <button class="submit">Submit</button>
-                <button>Restart Game</button>
+                <button id="hint">Hint</button>
+                <button id="restartGame">Restart</button>
+                <button id="submit">Submit</button>
             </form>
 
             <div class="historyContainer">
