@@ -91,7 +91,7 @@ var handleSubmission = function(game) {
     
     //update history container
     $('.historyContainer').text('');
-    $('.historyContainer').append('<img src = "ColorScale_50percent.jpg"><br>Previous attempts: ');
+    $('.historyContainer').append('<img src = "./fullstack-guessing-game/ColorScale_50percent.jpg"><br>Previous attempts: ');
     $('.historyContainer').append(getHintString(game));
     
     //update clue container
