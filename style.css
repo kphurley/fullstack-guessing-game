@@ -60,8 +60,12 @@ button{
     background-color: red;
 }
 
+.hint {
+    color: black;
+}
+
 .historyContainer {
-    
+    display: none;
 }
 
 .clueContainer {
@@ -70,7 +74,8 @@ button{
 }
 
 .reveal {
-    display: block;
+    color: white;
+    background-color: black;
 }
 
 #high{
@@ -80,4 +85,5 @@ button{
 #low{
     font-size: 10px;
 }
+
 
