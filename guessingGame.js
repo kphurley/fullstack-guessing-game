@@ -5,8 +5,8 @@
 
     $(document).ready(function() {
 
-        confirmAudio = new Audio('/confirm.wav');
-        successAudio = new Audio('/success.wav');
+        confirmAudio = new Audio('./fullstack-guessing-game/confirm.wav');
+        successAudio = new Audio('./fullstack-guessing-game/success.wav');
 
         //Generate a an object which holds all of the important game values
         //Parameters are (min_num, max_num, guesses_allowed)
